@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: rgb(171, 90, 247);
+    
+}
+.contents{
+display: flex;
+height: 130px;
+}
+
+.header{
+    display: flex;
+    padding-left: 40px;
+    align-items: center;   
+}
+.myclass{
+font-size: 40px;
+}
+.lco{
+    margin-left: 10px;
+    font-size: 40px;
+    color: beige;
+}
+.header1{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding-right: 40px;
+    align-items: center;
+    
+}
+.button{
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    padding: 10px;
+    margin-left:5px;
+    margin-right: 5px;
+    
+}
+
+.footer{
+    font-weight: bold;
+    padding-left: 40px;
+     display: flex;
+    
+}
+.f1{
+    display: flex; 
+}
+.navtabs{
+    padding: 10px; 
+    border-top-left-radius: 5px;  
+    border-top-right-radius: 5px; 
+    font-size: 15px;  
+    
+}
+.anchor{
+    text-decoration: none;
+    color: rgb(229, 231, 235);
+}
+.navtabs:hover{
+    background-color: rgb(185, 120, 250);
+}
+.f2{
+    display: flex; 
+    padding-left: 200px;
+    align-items: center;
+}
