@@ -5,7 +5,7 @@
 .main{
     display: flex;
     background-color: rgb(232, 235, 235);
-    height: 80vh;
+    height: 110vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 .header{
@@ -30,41 +30,89 @@
     /* border: 1px solid red; */
     position: relative;
     top: 125px;
+    text-align: center;
 }
 .login-box{
     /* border: 1px solid red; */
-    text-align: center;
     box-shadow: 2px 2px 2px .3px rgb(209, 207, 207);
     border-radius: 10px;
     background-color: white;
     width: 410px;
+    padding: 0 10px 20px 10px;
     /* height: 250px; */
-   
-
 }
+
 .input{
 border-radius: 10px;
-margin-top: 10px;
-border: solid rgb(109, 105, 105);
+margin-top: 17px;
+border: solid rgb(219, 214, 214);
 padding: 10px;
 width: 360px;
-font-size: 18px;
+font-size: 17px;
 height: 30px;
 border-width: 1px;
 }
 
-.input:active{
-border:solid  rgb(57, 123, 223);
-border-width: 1px;
+.btn{
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(57, 123, 223);
+    width: 390px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(75, 75, 240);
 }
 
-.btn{
-    width: 380px;
-    border-radius: 10px;
-    background-color: rgb(57, 123, 223);
-    color: white;
-    /* height: 30px; */
-    margin-top: 15px;
-   padding: 15px 0 0 15px;
-    font-size: 20px;
+.forgotten-pass{
+    text-decoration: none;
+    color: rgb(57, 123, 223);
+    font-size: 15px;
+    /* border: solid 1px red; */
+    position: relative;
+    top: 15px;
 }
+.forgotten-pass:hover{
+    text-decoration: underline;
+    
+}
+
+.divider{
+    width: 390px;
+    height: 1px;
+    background-color: rgb(207, 203, 203);
+    margin: 40px 0 25px 5px;
+}
+
+.btn-create{
+    background-color: rgb(34, 196, 34);
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    font-size: 17px;
+}
+.btn-create:hover{
+    background-color: green;
+    animation-duration: .5ms;
+}
+
+.page-for-celeb{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+
+}
+.page-for-celeb:hover{
+    text-decoration: underline;
+}
+    
