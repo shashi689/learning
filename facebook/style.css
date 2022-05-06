@@ -5,39 +5,38 @@
 .main{
     display: flex;
     background-color: rgb(232, 235, 235);
-    height: 100vh;
+    height: 50vw;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
 .header{
     /* border: 1px solid red; */
-    width: 55vw;
-    position: relative;
+    width: 53vw;
+    
 }
 .head{
     color: rgb(57, 123, 223);
-    font: bolder 50px Arial, Helvetica, sans-serif;
-    margin: 170px 0 0 170px;
-    /* height: auto; */
-    /* width: auto; */
-
+    font: bolder 60px Arial, Helvetica, sans-serif;
+    margin: 170px 0 0 170px; 
 }
 
 .sub-head{
     font-size: 30px;
     height: 100px;
     margin: 10px 0 0 170px;
-    font-weight: lighter;
+    color: rgb(37, 35, 35);
+
 }
 .login-part{
     /* border: 1px solid red; */
     position: relative;
     top: 125px;
+    left: 30px;
     text-align: center;
 }
 .login-box{
     /* border: 1px solid red; */
-    box-shadow: 2px 2px 2px .3px rgb(209, 207, 207);
+    box-shadow: 1px 1px 15px 2px rgb(209, 207, 207);
     border-radius: 10px;
     background-color: white;
     width: 370px;
@@ -112,15 +111,56 @@ border-width: 1px;
     background-color: green;
     cursor: pointer;
 }
+.advertise{
+    margin-top: 25px;
+}
 
 .page-for-celeb{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: small;
+    font-size: 14px;
+    
 
 }
 .page-for-celeb:hover{
     text-decoration: underline;
 }
+span{
+    font-size: 14px; 
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70vw;
+    margin: auto; 
+    position: relative;
+    top: 25px;  
+}
+
+.link-lang{
+    font-size: 13px;
+    list-style: none; 
+    /* display: flex;
+    justify-content: space-between;    */
+}
+
+.li-line{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(121, 118, 118);
+}
+.li-line:hover{
+    text-decoration: underline;
+}
+.divider-footer{
+    margin: 10px 0;
+    border-bottom: solid 1px rgb(192, 188, 188);
+}
+.link-footer{
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    align-content: space-around;
+}
+
     
