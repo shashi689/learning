@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.maincontainer{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 .nav-dark{
     background-color: rgb(57, 64, 78);
     text-align: right;
@@ -14,10 +18,122 @@ li{
     display: inline;
     padding: 10px;
 }
-.nav-list{
+.nav-list-dark{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 11px;
+}
+.nav-light{
+    /* border: 1px solid red; */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-left{
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(109, 106, 106);
+}
+.zoomlogo{
+   height: 4vh;
+   position: relative;
+   top: 4px; 
+    
+}
+.list-right{
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size:12px;
+    font-weight: bold;
+    color: rgb(27, 111, 190);
+    /* position: relative;
+    top: 12px; */
+}
+.sign-up{
+    padding: 8px 18px;
+    margin-left: 15px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(243, 96, 42);
+    border: none;
+    border-radius: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sign-up:hover{
+    background-color: rgb(206, 75, 28);
+    cursor: pointer;
+}
+.line-bottom{
+border-bottom: 1px solid rgb(196, 194, 194);
+}
+
+.mainhead{
+    width: 50vw;
+    height: 75vh;
+    background-color: rgb(244, 248, 247);
+    /* border: 1px solid red; */
+}
+h2{
+    font-size: 50px;
+    padding: 80px 100px 10px 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.in-email{
+    padding: 15px;
+    width: 300px;
+    font-size: medium;
+    margin: 10px 5px 0 70px;
+    border-radius: 10px;
+    border: none;
+}
+.in-emai:focus{
+    border: 1px solid blue;
+}
+.sign-up-alt{
+    color: white;
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: medium;
+    background-color: rgb(238, 79, 22);
+    border: none;
+    border-radius: 10px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.sign-up-alt:hover{
+    background-color: rgb(206, 75, 28);
+    cursor: pointer; 
+}
+span{
+    position: relative;
+    top: 15px;
+    margin-left: 70px;
+    font-size: 13px;
+}
+.private-policy{
+    text-decoration: none;
+    color: rgb(44, 193, 219);
+}
+.private-policy:hover{
+    text-decoration: underline;
+}
+
+.floating-box{
+    width: auto;
+    height: auto;
+    background-image: url('image.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
+.img{
+    max-width: ;
+
 }
