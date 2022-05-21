@@ -1,0 +1,16 @@
+h1 +p::first-letter{
+    color: red;
+    font-size: 5em;
+    text-transform: uppercase;
+
+}
+p::first-line{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+}
+p::first-letter{
+    background-color: blue;
+    color: red;
+    font-size: 2em;
+}
