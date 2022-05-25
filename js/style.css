@@ -1,7 +1,17 @@
+
+body{
+    background-image: url(/js/Ladakh_051019_0464.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h1 +p::first-letter{
     color: red;
     font-size: 5em;
     text-transform: uppercase;
+    
 
 }
 p::first-line{
@@ -13,4 +23,33 @@ p::first-letter{
     background-color: blue;
     color: red;
     font-size: 2em;
+    float: left;
+}
+.btn{
+    margin-top: 100px;
+    padding: 20px 50px;
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-weight: bolder;
+    border: none;
+    font-size: larger;
+
+}
+.btn:hover{
+    background-color: rgb(235, 126, 126);
+    color: black;
+    cursor: pointer;
+}
+.input{
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(243, 239, 18);
+    font-weight: bolder;
+    font-size: 50px;
 }

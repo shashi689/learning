@@ -61,8 +61,18 @@
 // console.log( page , a , b);
 // console.log(a*b);
 // console.log(a/b);
-
+// 
 // alert("Hello World");
 // console.log("Hello World");
-
-
+// function myFunction(){
+//     document.getElementsByTagName('p')[0].style.backgroundColor= 'red';
+//     document.getElementsByTagName('p')[0].style.padding= '20px';
+//     document.getElementsByClassName('input')[0].style.padding= '20px';
+//     document.getElementsByClassName('btn')[0].style.padding= '20px';
+//     document.getElementsByClassName('btn')[0].style.textTransform= 'uppercase';
+//     document.getElementsByClassName('btn')[0].style.backgroundColor= 'blue';
+//     document.getElementsByClassName('btn')[0].style.color= 'white';
+// }
+// function click(){
+//     document.getElementsByClassName('btn') 
+}
