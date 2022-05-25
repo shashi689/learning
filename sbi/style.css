@@ -165,17 +165,44 @@ span{
     text-align: center;
     width: 280px;
     height: 120px;
+    background-image: url(/sbi/phishing.jpg);
+    background-size: cover;
 }
-.head{
+.always{
     text-transform: uppercase;
     color: green;
     font-size: 18px;
     padding: 10px;
     background-color: rgb(224, 223, 223);
-    
-
+}
+.never{
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(224, 223, 223);
 }
 p{
     font-size: 12px;
     margin-top: 30px;
+    font-weight: bold;
+    color: red;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    color: #337ab7;
+    font-weight: lighter;
+}
+.sm-div{
+    width: 50px;
+    height: 2px;
+    background-color: #337ab7;
+    align-items: center;
+    margin-left: 575px;
+    margin-top: 10px;
+}
+.security{
+    display: flex;
 }
