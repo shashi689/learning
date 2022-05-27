@@ -1,13 +1,16 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-image: url(/js/Ladakh_051019_0464.jpg);
-    background-position: center;
+    background: fixed no-repeat url(/Ladakh_051019_0464.jpg) center;
+    /* background-position: center; */
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
 }
 
-h1 +p::first-letter{
+p::first-letter{
     color: red;
     font-size: 5em;
     text-transform: uppercase;
@@ -26,30 +29,59 @@ p::first-letter{
     float: left;
 }
 .btn{
+    display: inline;
     margin-top: 100px;
     padding: 20px 50px;
     background-color: brown;
     color: whitesmoke;
     border-radius: 8px;
     font-weight: bolder;
-    border: none;
+    border: 1px solid rgb(148, 148, 224);
     font-size: larger;
+    opacity: 0.5;
 
 }
 .btn:hover{
     background-color: rgb(235, 126, 126);
     color: black;
     cursor: pointer;
+    border: 1px solid black;
 }
 .input{
     border-radius: 8px;
     padding: 10px;
-    border: none;
+    border: 1px solid rgb(32, 32, 32);
+    background-color: rgb(185, 183, 183);
+    color: rgb(250, 11, 11);
+    opacity: .8;
 }
 h1{
     text-transform: uppercase;
     text-align: center;
-    color: rgb(243, 239, 18);
+    color: rgb(18, 243, 130);
     font-weight: bolder;
     font-size: 50px;
+}
+.kbd{
+    border-radius: 8px;
+    border: 1px solid rgb(148, 148, 224);
+    padding: 10px 30px;
+    background-color: brown;
+    opacity: 0.5;
+    font-size: larger;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.kbd:hover{
+    background-color: rgb(235, 126, 126);
+    color: black;
+    cursor: pointer;
+    border: 1px solid black; 
+}
+.audio{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 10px;
+    opacity: 0.7;  
 }

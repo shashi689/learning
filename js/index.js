@@ -73,6 +73,19 @@
 //     document.getElementsByClassName('btn')[0].style.backgroundColor= 'blue';
 //     document.getElementsByClassName('btn')[0].style.color= 'white';
 // }
-// function click(){
-//     document.getElementsByClassName('btn') 
+function f() {
+    document.getElementsByClassName('btn')[0]= alert('Hello I am A');
+    
 }
+
+let x= 'shashi';
+let y= 'kant';
+let z= 'prasad';
+console.log(x +  y + z);
+console.log(x +' '+  y + ' ' + z);
+
+carName= 'volvo';
+
+console.log (carName);
+var carName ;
+
