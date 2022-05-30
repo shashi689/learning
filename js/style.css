@@ -47,6 +47,9 @@ p::first-letter{
     cursor: pointer;
     border: 1px solid black;
 }
+
+
+}
 .input{
     border-radius: 8px;
     padding: 10px;
@@ -78,10 +81,52 @@ h1{
     cursor: pointer;
     border: 1px solid black; 
 }
+
 .audio{
     position: absolute;
     right: 0;
     top: 0;
     padding-top: 10px;
     opacity: 0.7;  
+}
+.shadowbtn{
+    position: relative;
+    left: 200px;
+    top: 20px;
+    padding: 20px 30px;
+    color:rgb(17, 16, 16);
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(247, 233, 233);
+    opacity: .7;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+.shadowbtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 1s ease;
+    font-weight: bolder;
+    border: 1px solid rgb(10, 10, 10);
+    
+
+}
+.shadowbtn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background: transparent;
+    height: 50%;
+    width: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(8px);
+    transition: 1s ease;
+    
+}
+.shadowbtn:hover::before{
+    background: rgb(255, 253, 252);
+    top: 50px;
+    
 }

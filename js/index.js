@@ -89,3 +89,36 @@ carName= 'volvo';
 console.log (carName);
 var carName ;
 
+let anyNumber= myFunction(10, 5);
+function myFunction(p1, p2){
+    return p1* p2;
+}
+console.log(anyNumber);
+
+let shashi= divide(10, 5);
+function divide(p1, p2){
+    return p1- p2;
+}
+console.log(shashi);
+
+const kant= add(2, 10, 20);
+function add(p1, p2, p3){
+    return p1+ p2+ p3;
+}
+console.log(kant);
+
+// const a= 10;
+// let b= 20;
+//  let c= (a+b);
+//  console.log(c);
+
+const a= "how are you?";
+ let ans= "I am Fine!! How are you?";
+let ans2= "I am also good.";
+console.log(a);
+console.log(ans);
+console.log(ans2);
+
+function conv= debate(a, ans, ans2);{
+    return a;
+}console.log (conv);
