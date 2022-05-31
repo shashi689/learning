@@ -112,13 +112,15 @@ console.log(kant);
 //  let c= (a+b);
 //  console.log(c);
 
-const a= "how are you?";
- let ans= "I am Fine!! How are you?";
-let ans2= "I am also good.";
-console.log(a);
-console.log(ans);
-console.log(ans2);
+const myGrade=[90, 80, 68];
+let sum= 0;
+sum= myGrade[0]+ myGrade[1]+ myGrade[2];
+console.log(sum);
+let average= sum/myGrade.length;
+console.log(average);
 
-function conv= debate(a, ans, ans2);{
-    return a;
-}console.log (conv);
+const team= ["kunal", "manas", "surya"];
+console.log(team[0]);
+// team[0]= binay;
+team[0]= "binay";
+console.log(team[0]);
