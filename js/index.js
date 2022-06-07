@@ -4,24 +4,19 @@
 
 // Array
 // var arr = [1, 2, 3, 4, 5];
-// console.log(arr);        
-// console.log(arr[0]);        
+// console.log(arr);
+// console.log(arr[0]);
 // console.log(arr[4]);
 
 // Strings added
 // var arr = [1, "another number", 3, 4, 5];
-// console.log(arr);        
-// console.log(arr[1]);        
-// console.log(arr[4]);  
+// console.log(arr);
+// console.log(arr[1]);
+// console.log(arr[4]);
 
 // logical operators
 
 // cosole.log( true && true);
-
-// function avgheat(a, b, c, d) {
-//     e =(a+b+c+d)/4;
-// return e;
-// }
 
 // day1= avgheat(10, 9, 10, 11);
 // day2= avgheat(2, 9, 10, 11);
@@ -61,7 +56,7 @@
 // console.log( page , a , b);
 // console.log(a*b);
 // console.log(a/b);
-// 
+//
 // alert("Hello World");
 // console.log("Hello World");
 // function myFunction(){
@@ -74,53 +69,122 @@
 //     document.getElementsByClassName('btn')[0].style.color= 'white';
 // }
 function f() {
-    document.getElementsByClassName('btn')[0]= alert('Hello I am A');
-    
+  document.getElementsByClassName('btn')[0] = alert('Hello I am A');
+}
+function m(){
+    document.getElementsByClassName('kbd')[0]= alert('I am M');
 }
 
-let x= 'shashi';
-let y= 'kant';
-let z= 'prasad';
-console.log(x +  y + z);
-console.log(x +' '+  y + ' ' + z);
-
-carName= 'volvo';
-
-console.log (carName);
-var carName ;
-
-let anyNumber= myFunction(10, 5);
-function myFunction(p1, p2){
-    return p1* p2;
+function ani_Click(){
+    document.getElementsByClassName("shadowbtn")[0]= alert("hellooooo");
 }
-console.log(anyNumber);
 
-let shashi= divide(10, 5);
-function divide(p1, p2){
-    return p1- p2;
-}
-console.log(shashi);
+// let x= 'shashi';
+// let y= 'kant';
+// let z= 'prasad';
+// console.log(x +  y + z);
+// console.log(x +' '+  y + ' ' + z);
 
-const kant= add(2, 10, 20);
-function add(p1, p2, p3){
-    return p1+ p2+ p3;
-}
-console.log(kant);
+// carName= 'volvo';
 
-// const a= 10;
-// let b= 20;
-//  let c= (a+b);
-//  console.log(c);
+// console.log (carName);
+// var carName ;
 
-const myGrade=[90, 80, 68];
-let sum= 0;
-sum= myGrade[0]+ myGrade[1]+ myGrade[2];
-console.log(sum);
-let average= sum/myGrade.length;
-console.log(average);
+// let anyNumber= myFunction(10, 5);
+// function myFunction(p1, p2){
+//     return p1* p2;
+// }
+// console.log(anyNumber);
 
-const team= ["kunal", "manas", "surya"];
-console.log(team[0]);
-// team[0]= binay;
-team[0]= "binay";
-console.log(team[0]);
+// let shashi= divide(10, 5);
+// function divide(p1, p2){
+//     return p1/ p2;
+// }
+// console.log(shashi);
+
+// const kant= add(2, 10, 20);
+// function add(p1, p2, p3){
+//     return p1+ p2+ p3;
+// }
+// console.log(kant);
+
+// // const a= 10;
+// // let b= 20;
+// //  let c= (a+b);
+// //  console.log(c);
+
+// const myGrade=[90, 80, 68];
+// let sum= 0;
+// sum= myGrade[0]+ myGrade[1]+ myGrade[2];
+// console.log(sum);
+// let average= sum/myGrade.length;
+// console.log(average);
+
+// const team= ["kunal", "manas", "surya"];
+// console.log(team[0]);
+// // team[0]= binay;
+// team[0]= "binay";
+// console.log(team[0]);
+
+// const area= areaBox(10, 5, 3);
+// function areaBox(l1, b1, h1){
+//     return l1* b1* h1;
+
+// }
+// console.log(area);
+
+// function avg(a, b, c, d, e) {
+//   g = (a + b + c + d + e) / 5;
+//   return g;
+// }
+// g1 = avg(10, 8, 5, 10, 9);
+// k2 = avg(10, 8, 9, 10, 9);
+// console.log(g1, k2);
+
+// const age= 28;
+// if (age > 20){
+//     console.log("You can appear for the exam");
+// }
+// else{
+//     console.log("You are not eligible");
+// }
+
+// if (age < 22){
+//     console.log("Entrance test free");
+// }
+// else if (age > 22){
+//     console.log("Fee is Rs300/-");
+// }
+// else if (age < 24){
+//     console.log("Entrance fee Rs500/- will be charged")
+// }
+// console.log("End of ladder");
+
+// let age = 24;
+
+// if (age > 18) {
+//   console.log("You can have whisky");
+// } else {
+//   console.log("You are under-aged for drink");
+// }
+
+// if (age> 30){
+//     console.log("You can play under 19 cricket");
+// }
+// else if (age> 25){
+//     console.log("You can play cricket");
+// }
+// else if(age > 18){
+//     console.log("You can play cricket");
+// }
+// console.log('End of ladder');
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arr);
+// console.log(arr.length);
+// for( let i=0; i<arr.length;i++){
+//     console.log(arr[i]);
+// }
+
+
+
