@@ -50,14 +50,50 @@ const arr= ['ram', 'shyam', 10, 'ravi'];
     }
     // console.log(enterRollNumber('3'));
         
-    // function largestNumber(n){
-    //     let i = n[0];
-    //     if()
+    function largestNumber(arr){
+        let i = arr[0];
+        console.log(arr);
+        // console.log(arr.length);
+        for(let k= 0;k<arr.length;k++){
+            // console.log(k);
+            if(arr[k]>i){
+              i= arr[k];
+            } // console.log(i);
+        }
+        return i;
+        }
+    
+    // console.log(largestNumber([24, 10, 15,32,8]));
 
 
+    // function getArrayMultipliedBy2([arr]){
+    //     let i= [];
+    //     console.log(i);
+    //     for(let indexNum=0; indexNum<arr.length; indexNum++){
+    //         console.log();
         
     //     }
-    
-    // console.log(largestNumber([1, 2, 3, 4]));
+    // }
+
+    // console.log(getArrayMultipliedBy2([24, 10, 15]));
+
+    function getLengthOfArray(arr){
+       return arr.length;
+    }
+//  console.log(getLengthOfArray([1,2,3,4]));
+
+function arrayValueChanged(arr){
+    let newArray= [];
+    for(let k=0;k<arr.length;k++){
+        const singleElement= arr[k];
+        const newElement= singleElement+ 'hi';
+        console.log(newElement);
+        newArray.push(newElement);
+    }
+    return newArray;
+}
+// console.log(arrayValueChanged([1,2,3,4,5]));
+
+        
 
     
