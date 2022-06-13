@@ -52,30 +52,19 @@ const arr= ['ram', 'shyam', 10, 'ravi'];
         
     function largestNumber(arr){
         let i = arr[0];
-        console.log(arr);
+        // console.log(arr);
         // console.log(arr.length);
         for(let k= 0;k<arr.length;k++){
-            // console.log(k);
+            // console.log(arr[k]);
             if(arr[k]>i){
               i= arr[k];
             } // console.log(i);
         }
-        return i;
+        // return i;
         }
     
     // console.log(largestNumber([24, 10, 15,32,8]));
 
-
-    // function getArrayMultipliedBy2([arr]){
-    //     let i= [];
-    //     console.log(i);
-    //     for(let indexNum=0; indexNum<arr.length; indexNum++){
-    //         console.log();
-        
-    //     }
-    // }
-
-    // console.log(getArrayMultipliedBy2([24, 10, 15]));
 
     function getLengthOfArray(arr){
        return arr.length;
@@ -85,15 +74,44 @@ const arr= ['ram', 'shyam', 10, 'ravi'];
 function arrayValueChanged(arr){
     let newArray= [];
     for(let k=0;k<arr.length;k++){
-        const singleElement= arr[k];
+        // console.log(arr[k]);
+        const singleElement= arr[k]+ 'hi';
+        // console.log(singleElement);
         const newElement= singleElement+ 'hi';
-        console.log(newElement);
+        // console.log(newElement);
         newArray.push(newElement);
     }
     return newArray;
 }
 // console.log(arrayValueChanged([1,2,3,4,5]));
 
+
+function getReversedArray(arr){
+    // return arr.length;
+    let newArray = [];
+    for(let k=arr.length-1;k>=0;k--){
+        // console.log(arr[k]);
+        const returnArray= arr[k]
+        newArray.push(returnArray);
+    }
+    return newArray;
+}
+// console.log(getReversedArra/y([1,2,3,4,5]));
+
+function returnNameArray(arr){
+    let newNameArray =[];
+    // return reverse(arr);
+
+    for(let i=0;i<arr.length;i++){
+        // console.log(i);
+        // console.log(arr/[i]);
+        const newElement= arr[i];
+        console.log(newElement);
+        newNameArray.push(newElement);
+    }
+    return newNameArray;
+}
+console.log(returnNameArray([1,2,3]));
         
 
     
