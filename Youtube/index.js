@@ -137,21 +137,34 @@ function returnString(str) {
 
 // const arr=[1,2,3];
 function getSumOfArray(ekarr){
+    
     let sum=0;
     for(let i=0; i<ekarr.length; i++){
-        // console.log(ekarr[i]);
-        sum+= ekarr[i];
-        // console.log(sum);
+        // console.log(typeof ekarr[i]);
+        if(!isNaN(ekarr[i])){
+          sum= sum + ekarr[i];
+        }
+      
     }
     return sum;
 }
-// console.log(getSumOfArray([1,2,3,1,'hi',1]));
+console.log(getSumOfArray([1,2,3,1,'hi',1]));
 
 const steel= {grade:'C06', heatno:'D201', carbon:'.045%',
 detail: function(){
-    return steel.grade+ ' ' + steel.heatno+ ' '+ steel.carbon;}
+// return steel.grade+ ' ' + steel.heatno+ ' '+ steel.carbon;
+return this.grade+ ' ' + this.heatno+ ' '+ this.carbon;
 }
-console.log(steel.grade);
-console.log(steel.carbon);
-console.log(steel.heatno);
-console.log(steel.detail());
+}
+// console.log(steel.grade);
+// console.log(steel.carbon);
+// console.log(steel.heatno);
+// console.log(steel.detail());
+
+// document.getElementById('btn').innerHTML = Date();
+
+let value= 1;
+value =Number('1');
+// console.log(typeof value);
+// alert(2**2);
+// alert(16**(1/4));
