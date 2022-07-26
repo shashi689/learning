@@ -148,7 +148,7 @@ function getSumOfArray(ekarr){
     }
     return sum;
 }
-console.log(getSumOfArray([1,2,3,1,'hi',1]));
+console.log(getSumOfArray([1,2,3,1,'hi',1,1]));
 
 const steel= {grade:'C06', heatno:'D201', carbon:'.045%',
 detail: function(){

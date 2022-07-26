@@ -63,6 +63,17 @@ li:hover{
     background-color: rgb(201, 199, 199);
     margin: 5px 0 5px 0;
 }
+.buttons{
+    display: grid;
+    /* grid-row-gap: 5px; */
+    /* grid-column-gap: 5px; */
+    grid-gap: 5px ;
+    grid-template-columns: auto auto auto;
+    /* max-width: 200px; */
+    /* border: 1px solid green; */
+
+    
+}
 
 #btn{
     position: relative;
@@ -70,4 +81,18 @@ li:hover{
     bottom: 100px;
     cursor: pointer;
     padding:20px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: large;
+    transition: all .6s ease;
 }
+#btn:hover{
+ box-shadow: 0 0 100px #cfc645,
+             0 0 60px #ff0080,
+             0 0 10px #ff0080;
+             background-color: #ff0080;
+             transition: width .3s  cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
