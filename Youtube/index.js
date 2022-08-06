@@ -23,15 +23,15 @@ const arr = ["ram", "shyam", 10, "ravi"];
 // arr.push= 'rohan';
 // console.log(arr[0]);
 // console.log(arr);
-// console.log(arr.length);
+// console.log(arr.reverse());
 
 function inputYear(y) {
   if (y % 4 === 0) {
-    return true;
+    return 'a leap year';
   }
-  return false;
+  return 'nai hai';
 }
-// console.log(inputYear('2030'));
+// console.log(inputYear(2024));
 
 function enterRollNumber(n) {
   if (n === "1") {
@@ -78,6 +78,70 @@ function arrayValueChanged(arr) {
 }
 // console.log(arrayValueChanged([1,2,3,4,5]));
 
+function getVowelsCount(string){
+  let count = 0;
+  for(let i=0;i<string.length;i++){
+    // console.log(string[i]);
+    if(string[i]==('a')){
+      count++;
+    }
+    else if(string[i]==('e')){
+      count++;
+    }
+    else if(string[i]==('i')){
+      count++;
+    }
+    else if(string[i]==('o')){
+      count++;
+    }
+    else if(string[i]==('u')){
+      count++;
+    }
+  }
+  return count;
+}
+// console.log(getVowelsCount('ram is a good boy'))
+
+function getOccurenceOfLetter(ekarray, letter){
+  let count= 0;
+  for (let i=0;i<ekarray.length;i++){
+    if(ekarray[i]== letter){
+      count++;
+    }
+  }
+  return count;
+}
+// console.log(getOccurenceOfLetter('ye toh run kar rha mota' , 'm'));
+
+function getOddNumCount(arr){
+  let count=0;
+  for(let i=0;i<arr.length;i++){
+    if(arr[i] % 2 !=0){
+      count++;
+    }
+  }
+if(count==0){
+  return 'no numbers'
+}
+else{
+  return count;
+}
+}
+// console.log(getOddNumCount([2,2,2]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function getReversedArray(arr) {
   // return arr.length;
   let newArray = [];
@@ -95,7 +159,7 @@ function returnNameArray(arr) {
 
   for (let i = 0; i < arr.length; i++) {
     const newElement= arr[i];
-    newElement[i]='hi';
+    newElement[0]='hi';
     newElement[1]='gi';
     newElement[2]='ki';
     // console.log(newElement);
@@ -105,9 +169,6 @@ function returnNameArray(arr) {
 //   return newNameArray;
 }
 // console.log(returnNameArray(['1','2','3']));
-
-
-
 
 
 function returnString(str) {
@@ -136,19 +197,20 @@ function returnString(str) {
 // console.log(getUpdatedStringArray(['ram', 'tan']);
 
 // const arr=[1,2,3];
-function getSumOfArray(ekarr){
+function getSumAtEvenIndex(ekarr){
     
     let sum=0;
     for(let i=0; i<ekarr.length; i++){
         // console.log(typeof ekarr[i]);
         if(!isNaN(ekarr[i])){
-          sum= sum + ekarr[i];
+          if(i % 2==0){
+            sum= sum + ekarr[i];
+          }
         }
-      
     }
     return sum;
 }
-console.log(getSumOfArray([1,2,3,1,'hi',1,1]));
+// console.log(getSumAtEvenIndex([1,'k',3,4,'i']));
 
 const steel= {grade:'C06', heatno:'D201', carbon:'.045%',
 detail: function(){
@@ -168,3 +230,29 @@ value =Number('1');
 // console.log(typeof value);
 // alert(2**2);
 // alert(16**(1/4));
+
+
+
+let marks = [45,50,28,35,47];
+let marks1 = [54,29,35];
+marks= marks.concat(marks1);
+// marks.pop();
+// marks.shift();
+// marks.unshift(35);
+// marks.push(30);
+// marks.reverse();
+// console.log(marks);
+ let text = 'idhar aao';
+ text = text + 'matlb idhar aao';
+//  console.log(text);
+ let phone = 'wo wala';
+ let num = 1;
+//  console.log(phone + num);
+
+ let x = 5 + 5;
+let y = "5" + 5;
+// let z = 6 + 5+ "Hello" + 5;
+let z = Math.pow(x,3);
+// console.log(z);
+
+ 
