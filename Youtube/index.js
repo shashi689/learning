@@ -130,11 +130,128 @@ else{
 // console.log(getOddNumCount([2,2,2]));
 
 
+function getSumOfOddNumber(arr){
+  let sum =0;
+  for(let i=0;i<arr.length;i++){
+    if(i % 2 !=0){
+      sum = sum+ arr[i];
+    }
+  }
+return sum;
+}
+// console.log(getSumOfOddNumber([1,2,3,1]));
+
+function factorial(number){
+  let value= 1;
+  for(let i=number;i>=1;i--){
+    value = value*i;
+  }
+  return value;
+}
+// let number =7;
+// let value= factorial(number);
+// console.log('the factorial of'+' '+ number +' '+ 'is'+' '+ value);
+
+function getNoOfWordsInArgument(sentence){
+  let numbers= sentence.split(' ');
+  return numbers.filter(word => word !==' ').length;
+}
+// console.log(getNoOfWordsInArgument('ram is good'));
 
 
 
+function getPalindrome(string){
+  if(!string||string.length<0){
+    return alert('likh bhi do kuch');
+  }
+  else{
+    let newString='';
+    for(let i=string.length-1;i>=0;i--){
+      newString= newString+ string[i];
+    }
+    return newString==string;
+  }
+}
+// console.log(getPalindrome(''));
 
+// function getFirstUpperCase(string){
+// let newStr= string[0].toUpperCase();
+// return newStr + string.slice(1);
+// }
+// console.log(getFirstUpperCase('mota'));
 
+function getFirstUpperCase(string){
+  let newStr='';
+  let ekAurNew= '';
+  for(let i=1;i<string.length;i++){
+    // console.log(string.split(' '));
+    newStr = newStr + string[i];
+    // console.log(newStr);
+    ekAurNew= string[0].toUpperCase();
+    // console.log(ekAurNew);
+  }
+  return ekAurNew + newStr;
+}
+// console.log(getFirstUpperCase('ho gya bhai'));
+
+function getNextChar(string,char){
+  let LETTERS = 'abcdefghijklmnopqrstuvwxyz';
+  let newStr= '';
+  let nextChar= '';
+  for(let k=0;k<LETTERS.length;k++){
+    
+    if(LETTERS[k]===char){
+        nextChar= LETTERS[k+1];
+        }
+    }
+    
+  for(let i=0;i<string.length;i++){
+    if(string[i]=== char){
+      newStr= string.replace( char,nextChar);
+      console.log(newStr);
+    }
+  }
+  // return newStr;
+}
+// console.log(getNextChar('ram is mar','m'));
+
+function getNextChar(char){
+  let LETTERS = 'abcdefghijklmnopqrstuvwxyz';
+  let nextchar='';
+  for(let i=0;i<LETTERS.length;i++){
+    if(LETTERS[i+25]===char){
+      return LETTERS[i+25];
+    }
+    else if(LETTERS[i]===char){
+      nextchar= LETTERS[i+1];
+    }
+  }
+  return nextchar;
+}
+function getReplacedString(string,char){
+  let nextchar= getNextChar(char);
+  let newStr=string.split('');
+  
+  for(let k=0;k<string.length;k++){
+    if(string[k]===char){
+      newStr[k]= nextchar;
+    }
+  }
+  return newStr.join('');
+}
+// console.log(getReplacedString('zebras zeal zone wise ', 'z'));
+
+function getNextLeapYear(year){
+  let inputYear= year;
+  if(year % 4=== 0){
+    let nextLeapYear = inputYear + 4;
+    return nextLeapYear;
+  }
+  else if(year % 4 !=0){
+    alert('please try another year');
+  }
+}
+// console.log(getNextLeapYear(2011));
 
 
 
@@ -186,7 +303,7 @@ function returnString(str) {
   }
 }
 
-// console.log(returnString(["ram", "hon", "got"]));
+// console.log(returnString(["ram", "/hon", "got"]));
 
 
 // const stringArray = ["ram"]
@@ -225,8 +342,8 @@ return this.grade+ ' ' + this.heatno+ ' '+ this.carbon;
 
 // document.getElementById('btn').innerHTML = Date();
 
-let value= 1;
-value =Number('1');
+// let value= 1;
+// value =Number('1');
 // console.log(typeof value);
 // alert(2**2);
 // alert(16**(1/4));
@@ -255,4 +372,3 @@ let y = "5" + 5;
 let z = Math.pow(x,3);
 // console.log(z);
 
- 
