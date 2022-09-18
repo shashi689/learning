@@ -130,7 +130,11 @@ document.querySelector("#book-form").addEventListener("submit", (e) => {
 
 //EVENT: REMOVE A BOOK
 document.querySelector("#book-list").addEventListener("click", (e) => {
+  //REMOVING BOOK FROM UI
   UI.deleteBook(e.target);
+
+  //REMOVE BOOK FROM STORE
+  Store.removeBook(e.target.parentElement.previousElementSiblings.textContent);
 
   UI.showAlerts("Books Removed", "success");
 });
