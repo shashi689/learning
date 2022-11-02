@@ -27,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(var(--pink) 0%, var(--voilet) 100%);
+  background: linear-gradient( 0% var(--pink), var(--voilet) 100%);
 }
 
 .wrapper {
@@ -251,6 +251,7 @@ body {
   margin: 10px 0;
   max-height: 250px;
   overflow: auto;
+  background:linear-gradient();
 }
 .music-list ul::-webkit-scrollbar {
   width: 0px;
@@ -262,8 +263,8 @@ body {
   cursor: pointer;
   padding-bottom: 10px;
   margin-bottom: 5px;
-  color: var(--lightblack);
-  border-bottom: 1px solid var(--lightshadow);
+  color: var(--violet);
+  border-bottom: 1px solid var(--violet);
 }
 .music-list ul li:last-child {
   border-bottom: 0px;

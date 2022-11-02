@@ -215,7 +215,7 @@ for (let i = 0; i < allMusic.length; i++) {
   liAudioTag.addEventListener("loadeddata", () => {
     let duration = liAudioTag.duration;
     let totalMin = Math.floor(duration / 60);
-    let totalSec = Math.floor(duration % 60);
+    let totalSec = Math.floor(duration % 60); 
     if (totalSec < 10) {
       totalSec = `0${totalSec}`;
     }
