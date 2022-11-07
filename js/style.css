@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: fixed no-repeat url(/Ladakh_051019_0464.jpg) center;
+    /* background-position: center; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+
+p::first-letter{
+    color: red;
+    font-size: 5em;
+    text-transform: uppercase;
+    
+
+}
+p::first-line{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+}
+p::first-letter{
+    background-color: blue;
+    color: red;
+    font-size: 2em;
+    float: left;
+}
+.btn{
+    display: inline;
+    margin-top: 100px;
+    padding: 20px 50px;
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-weight: bolder;
+    border: 1px solid rgb(148, 148, 224);
+    font-size: larger;
+    opacity: 0.5;
+
+}
+.btn:hover{
+    background-color: rgb(235, 126, 126);
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.input{
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid rgb(32, 32, 32);
+    background-color: rgb(185, 183, 183);
+    color: rgb(250, 11, 11);
+    opacity: .8;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(18, 243, 130);
+    font-weight: bolder;
+    font-size: 50px;
+}
+.kbd{
+    border-radius: 8px;
+    border: 1px solid rgb(148, 148, 224);
+    padding: 10px 30px;
+    background-color: brown;
+    opacity: 0.5;
+    font-size: larger;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.kbd:hover{
+    background-color: rgb(235, 126, 126);
+    color: black;
+    cursor: pointer;
+    border: 1px solid black; 
+}
+
+.audio{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 10px;
+    opacity: 0.7;  
+}
+.shadowbtn{
+    position: absolute;
+    right: 50px;
+    bottom: 200px;
+    padding: 20px 30px;
+    color:rgb(17, 16, 16);
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(247, 233, 233);
+    opacity: .7;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+.shadowbtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 1s ease;
+    font-weight: bolder;
+    border: none;
+    
+
+}
+.shadowbtn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background: transparent;
+    height: 50%;
+    width: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(8px);
+    transition: 1s ease;
+    
+}
+.shadowbtn:hover::before{
+    background: rgb(255, 253, 252);
+    top: 50px;
+    
+}
